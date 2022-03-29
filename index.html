@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>RPS Game</title>
-        </head>
+<html>
 
-        <body>
-            <script src="./script.js"></script>
-        </body>
-    </html>
+<head>
+    <meta charset="UTF-8">
+    <title>RPS Game</title>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <div class="header">Classic Rock Paper Scissors Game</div>
+    <div class="middle">
+        <div class="announce">
+            <p class="situation">Choose either rock, paper or scissors by clicking the corresponding image!</p>
+            <p class="winCondition">First to 3 wins!</p>
+        </div>
+
+        <div class="game">
+            <div class="player">
+                <p class="playerWinCount">?</p>
+                <p>Player</p>
+            </div>
+
+            <div class="computer">
+                <p class="computerWinCount">?</p>
+                <p>Computer</p>
+            </div>
+        </div>
+
+        <div class="buttonContainer">
+            <button class="rock"><img src="http://media.pixcove.com/W/4/1/Rock-Paper-Scissors-Hand-Rock-Free-Image-Gesture-F-0863.jpg" alt="rock sign image"></button>
+            <button class="paper"><img src="http://media.pixcove.com/F/4/8/Rock-Paper-Scissors-Hand-Paper-Free-Image-Gesture--3589.jpg" alt="paper hand sign"></button>
+            <button class="scissors"><img src="https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296853_1280.png" alt="scissors hand sign"></button>
+        </div>
+    </div>
+
+    <div class="copyright">
+        Copyright @ 2022 <a href="https://www.github.com/EmreDogu">EmreDogu</a>
+    </div>
+</body>
+
+</html>
