@@ -1,3 +1,3 @@
 # RockPaperScissors-javascript-project
 
-First JavaScript project! It's the game of Rock-Paper-Scissors. It has not have a GUI (yet) but all of the functions are there. Basically you input into promp either one of rock, paper and scissors (if you don't there is a check for that) and your pick gets compared against randomly choosen rock, paper or scissors. First to 3 wins! Also you can reach it by clicking [here](https://emredogu.github.io/RockPaperScissors-javascript-project/) (Sometimes refreshing page need to be done in order to make it work, GitHub Pages are a bit inconsistent).
+Updated old javascript project with ui. It now operates on buttons instead of window.prompt's and it has a website design now. Interns of the game, it's good old classic RPS. First to 3 wins! Also you can try it out live by clicking [here](https://emredogu.github.io/RockPaperScissors-javascript-project/) 
